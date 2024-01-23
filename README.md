@@ -31,6 +31,7 @@ Electronic examinations offer a convenient way for assessing the knowledge and a
 ## Background
 
 ### Roles of Participants
+
 In a general way, there are four roles in an electronic examination, i.e., candidate, administrator, invigilator and examiner. We list their functions as follows. 
 * Candidate: A candidate is a student taking the examination.
 * Administrator: An administrator is responsible for registering candidates for the examination.
@@ -39,23 +40,53 @@ In a general way, there are four roles in an electronic examination, i.e., candi
 Each participant is assigned specific tasks, and through collaborative efforts, they contribute to the successful execution of electronic examinations.
 
 ### Simulation and Verification
+
 When simulating this model (i.e., [An-Electronic-Examination-Model-Based-on-UPPAAL.xml](https://github.com/TURTING-BO/An-Electronic-Examination-Model-Based-on-UPPAAL/blob/main/An-Electronic-Examination-Model-Based-on-UPPAAL.xml), ensure that you have installed UPPAAL Tools. You can download CPNs Tools from the website "https://uppaal.org/". The site provides numerous helpful tutorials on effectively utilizing this powerful tool.
 
 ## Model Specifications
+
 In our model, there are four templates corresponding to the candidate, administrator, invigilator, and examiner, as follows.
+
 ### Candidate Template
+
 <figure>
   <div align=center>
-    <img src="https://github.com/TURTING-BO/CPNs-Attack-Tolerance/blob/master/Module%20Figures/M1_Main.png"> 
+    <img src="https://github.com/TURTING-BO/An-Electronic-Examination-Model-Based-on-UPPAAL/blob/main/Template%20Figures/Candidate%20Template.jpg" width="70%" height="70%">  
   </div>
   <div align=center>
-     <figcaption>Figure 1. Main Process</figcaption>
+     <figcaption>Figure 1. Candidate Templates</figcaption>
   </div>    
 </figure>
 
 ### Administrator Template
+<figure>
+  <div align=center>
+    <img src="https://github.com/TURTING-BO/An-Electronic-Examination-Model-Based-on-UPPAAL/blob/main/Template%20Figures/Administrator%20Template.jpg" width="70%" height="70%"> 
+  </div>
+  <div align=center>
+     <figcaption>Figure 2. Administrator Templates</figcaption>
+  </div>    
+</figure>
+
 ### Invigilator Template
+<figure>
+  <div align=center>
+    <img src="https://github.com/TURTING-BO/An-Electronic-Examination-Model-Based-on-UPPAAL/blob/main/Template%20Figures/Invigilator%20Template.jpg" width="70%" height="70%"> 
+  </div>
+  <div align=center>
+     <figcaption>Figure 3. Invigilator Templates</figcaption>
+  </div>    
+</figure>
+
 ### Examiner Template
+<figure>
+  <div align=center>
+    <img src="https://github.com/TURTING-BO/An-Electronic-Examination-Model-Based-on-UPPAAL/blob/main/Template%20Figures/Examiner%20Template.jpg" width="70%" height="70%"> 
+  </div>
+  <div align=center>
+     <figcaption>Figure 4. Examiner Templates</figcaption>
+  </div>    
+</figure>
 
 ## Property Specifications
 
@@ -133,3 +164,12 @@ The mark integrity property ensures that each candidate receives notification af
 
 ## Verification Results
 Our model satisfied all the 12 specified properties, underscoring the reliability of the electronic examination model. The verification time and resident memory statistics indicate that the associated time and space overhead are within acceptable limits.
+
+<figure>
+  <div align=center>
+    <img src="https://github.com/TURTING-BO/An-Electronic-Examination-Model-Based-on-UPPAAL/blob/main/Verification%20Results.jpg" width="70%" height="70%"> 
+  </div>
+  <div align=center>
+     <figcaption>Figure 5. Verification Resultss</figcaption>
+  </div>    
+</figure>
