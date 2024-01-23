@@ -8,6 +8,10 @@ Electronic examinations offer a convenient way for assessing the knowledge and a
   - [Roles of Participants](#Roles-of-Participants)
   - [Simulation and Verification](#Simulation-and-Verification)
 - [Model Specifications](#Model-Specifications)
+  - [Candidate Template](#Candidate-Template)
+  - [Administrator Template](#Administrator-Template)
+  - [Invigilator Template](#Invigilator-Template)
+  - [Examiner Template](#Examiner-Template)
 - [Property Specifications](#Property-Specifications)
 - [Verification Results](#Verification-Results)
 
@@ -27,7 +31,7 @@ When simulating this model (i.e., [An-Electronic-Examination-Model-Based-on-UPPA
 
 ## Model Specifications
 In our model, there are four templates corresponding to the candidate, administrator, invigilator, and examiner, as follows.
-* Candidate Template
+### Candidate Template
 <figure>
   <div align=center>
     <img src="https://github.com/TURTING-BO/CPNs-Attack-Tolerance/blob/master/Module%20Figures/M1_Main.png"> 
@@ -37,9 +41,9 @@ In our model, there are four templates corresponding to the candidate, administr
   </div>    
 </figure>
 
-* Administrator Template
-* Invigilator Template
-* Examiner Template
+### Administrator Template
+### Invigilator Template
+### Examiner Template
 
 ## Property Specifications
 1. No Deadlock
