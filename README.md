@@ -1,4 +1,4 @@
-# Formal Modeling and Verification of Electronic Examination Based on UPPAAL
+# An Electronic Examination Model Based on UPPAAL
 
 Electronic examinations offer a convenient way for assessing the knowledge and abilities of learners with the help of computer and network technologies. In this study, we employ UPPAAL to formally model and analyze the electronic examination process, including conduction of four templates and verification of twelve properties. 
 
