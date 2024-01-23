@@ -63,73 +63,73 @@ In our model, there are four templates corresponding to the candidate, administr
 
 In the electronic examination model, the absence of deadlocks is crucial to prevent any "never-ending" scenarios.
 
-<p align="center" face="微软雅黑"> A[] not deadlock </p>
+<p align="center"> A[] not deadlock </p>
 
 ### Candidate Registration
 
 The candidate registration property stipulates that a candidate can submit an answer only if they have registered.
 
-A[] forall(i:ID) !(! FindElement(R, i) & FindElement(S, i))
+<p align="center"> A[] forall(i:ID) !(! FindElement(R, i) & FindElement(S, i)) </p>
 
 ### Candidate Eligibility
 
 The candidate eligibility property signifies that a candidate's answer can be accepted only if they have registered.
 
-A[] forall(i:ID) !(!FindElement(R, i) & FindElement(A, i))
+<p align="center"> A[] forall(i:ID) !(!FindElement(R, i) & FindElement(A, i)) </p>
 
 ### Answer Authentication
 
 The answer authentication property stipulates that a candidate's answer can be accepted only if they have submitted the answer.
 
-A[] forall(i:ID) !(!FindElement(S, i) & FindElement(A, i))
+<p align="center"> A[] forall(i:ID) !(!FindElement(S, i) & FindElement(A, i)) </p>
 
 ### Answer Singularity
 
 The answer singularity property signifies that, for each candidate, only a singular response can be deemed acceptable per question.
 
-A[] forall(i:ID) OneAnswerEachQuestion(A, i)
+<p align="center"> A[] forall(i:ID) OneAnswerEachQuestion(A, i) </p>
 
 ### Acceptance Assurance
 
 The acceptance assurance property underscores the requirement that an answer submitted by a candidate should be accepted.
 
-A[] forall(i:ID) FirstSubmitFollowAccept(T, i)
+<p align="center"> A[] forall(i:ID) FirstSubmitFollowAccept(T, i) </p>
 
 ### Question Ordering
 
 The question ordering property emphasizes that a candidate can proceed to the next question only after the answer to the current question is accepted.
 
-A[] forall(i:ID) GetAcceptGet(T, i)
+<p align="center"> A[] forall(i:ID) GetAcceptGet(T, i) </p>
 
 ### Exam Availability
 
 The exam availability property stipulates that the acceptance of an answer from a candidate is permissible only during the examination period.
 
-A[] StartAcceptEnd(T)
+<p align="center"> A[] StartAcceptEnd(T) </p>
 
 ### Answer-Score Integrity
 
 The answer-score integrity property ensures that the correct answer can not be modified after the examination starts.
 
-A[] NoStartCorrAns(T)
+<p align="center"> A[] NoStartCorrAns(T) </p>
 
 ### Cheater Detection
 
 During an examination process, cheating may take place, e.g., one candidate copies the answers of the other candidate.
 
-A[] NoDistanceExceed(sm)
+<p align="center"> A[] NoDistanceExceed(sm) </p>
 
 ### Marking Correctness
 
 The marking correctness property asserts that once marking has occurred, the correct answers cannot be modified. 
 
-A[] NoCorrAnsMark(T)
+<p align="center"> A[] NoCorrAnsMark(T) </p>
 
 ### Mark Integrity
 
 The mark integrity property ensures that each candidate receives notification after marking, and all answers from candidates are duly marked.
 
-A[] MarkIntegrity(T)
+<p align="center"> A[] MarkIntegrity(T) </p>
 
 ## Verification Results
 Our model satisfied all the 12 specified properties, underscoring the reliability of the electronic examination model. The verification time and resident memory statistics indicate that the associated time and space overhead are within acceptable limits.
