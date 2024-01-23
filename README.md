@@ -5,6 +5,8 @@ Electronic examinations offer a convenient way for assessing the knowledge and a
 ## Table of Contents
 
 - [Roles of Participants](#Roles-of-Participants)
+  - [Roles of Participants](#Roles-of-Participants)
+  - [Simulation and Verification](#Simulation-and-Verification)
 - [Model Specifications](#Model-Specifications)
 - [Property Specifications](#Property-Specifications)
 - [Verification Results](#Verification-Results)
