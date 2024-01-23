@@ -13,6 +13,18 @@ Electronic examinations offer a convenient way for assessing the knowledge and a
   - [Invigilator Template](#Invigilator-Template)
   - [Examiner Template](#Examiner-Template)
 - [Property Specifications](#Property-Specifications)
+  - [No Deadlock](#No-Deadlock)
+  - [Candidate Registration](#Candidate-Registration)
+  - [Candidate Eligibility](#Candidate-Eligibility)
+  - [Answer Authentication](#Answer-Authentication)
+  - [Answer Singularity](#Answer-Singularity)
+  - [Acceptance Assurance](#Acceptance-Assurance)
+  - [Question Ordering](#Question-Ordering)
+  - [Exam Availability](#Exam-Availability)
+  - [Answer-Score Integrity](#Answer-Score-Integrity)
+  - [Cheater Detection](#Cheater-Detection)
+  - [Marking Correctness](#Marking-Correctness)
+  - [Mark Integrity](#Mark-Integrity)  
 - [Verification Results](#Verification-Results)
 
 
@@ -46,62 +58,75 @@ In our model, there are four templates corresponding to the candidate, administr
 ### Examiner Template
 
 ## Property Specifications
-1. No Deadlock
+
+### No Deadlock
+
 In the electronic examination model, the absence of deadlocks is crucial to prevent any "never-ending" scenarios.
 
 A[] not deadlock
 
-2. Candidate Registration
+### Candidate Registration
+
 The candidate registration property stipulates that a candidate can submit an answer only if they have registered.
 
 A[] forall(i:ID) !(! FindElement(R, i) & FindElement(S, i))
 
-3. Candidate Eligibility
+### Candidate Eligibility
+
 The candidate eligibility property signifies that a candidate's answer can be accepted only if they have registered.
 
 A[] forall(i:ID) !(!FindElement(R, i) & FindElement(A, i))
 
-4. Answer Authentication
+### Answer Authentication
+
 The answer authentication property stipulates that a candidate's answer can be accepted only if they have submitted the answer.
 
 A[] forall(i:ID) !(!FindElement(S, i) & FindElement(A, i))
 
-5. Answer Singularity
+### Answer Singularity
+
 The answer singularity property signifies that, for each candidate, only a singular response can be deemed acceptable per question.
 
 A[] forall(i:ID) OneAnswerEachQuestion(A, i)
 
-6. Acceptance Assurance
+### Acceptance Assurance
+
 The acceptance assurance property underscores the requirement that an answer submitted by a candidate should be accepted.
 
 A[] forall(i:ID) FirstSubmitFollowAccept(T, i)
 
-7. Question Ordering
+### Question Ordering
+
 The question ordering property emphasizes that a candidate can proceed to the next question only after the answer to the current question is accepted.
 
 A[] forall(i:ID) GetAcceptGet(T, i)
 
-8. Exam Availability
+### Exam Availability
+
 The exam availability property stipulates that the acceptance of an answer from a candidate is permissible only during the examination period.
 
 A[] StartAcceptEnd(T)
 
-9. Answer-Score Integrity
+### Answer-Score Integrity
+
 The answer-score integrity property ensures that the correct answer can not be modified after the examination starts.
 
 A[] NoStartCorrAns(T)
 
-10. Cheater Detection
+### Cheater Detection
+
 During an examination process, cheating may take place, e.g., one candidate copies the answers of the other candidate.
 
 A[] NoDistanceExceed(sm)
 
-11. Marking Correctness
+### Marking Correctness
+
 The marking correctness property asserts that once marking has occurred, the correct answers cannot be modified. 
 
 A[] NoCorrAnsMark(T)
 
-12. Mark Integrity
+### Mark Integrity
+
 The mark integrity property ensures that each candidate receives notification after marking, and all answers from candidates are duly marked.
 
 A[] MarkIntegrity(T)
