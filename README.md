@@ -63,7 +63,7 @@ In our model, there are four templates corresponding to the candidate, administr
 
 In the electronic examination model, the absence of deadlocks is crucial to prevent any "never-ending" scenarios.
 
-<p align="center" style="background-color : grey;"> A[] not deadlock </p>
+<p align="center" style="background-color:grey;"> A[] not deadlock </p>
 
 ### Candidate Registration
 
