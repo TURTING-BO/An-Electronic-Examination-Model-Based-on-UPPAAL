@@ -1,23 +1,39 @@
-Formal Modeling and Verification of Electronic Examination Based on UPPAAL
+# Formal Modeling and Verification of Electronic Examination Based on UPPAAL
+
+## Table of Contents
+
+- [Roles of Participants](#Roles of Participants)
+- [Model Specifications](#Model Specifications)
+- [Property Specifications](#Property Specifications)
+- [Verification Results](#Verification Results)
 
 Electronic examinations offer a convenient way for assessing the knowledge and abilities of learners with the help of computer and network technologies. The participants in electronic examinations are akin to those in traditional exams, with the difference that certain operations are conducted through network communications.
 
-#1 Roles of Participants
+## 1 Roles of Participants
 In a general way, there are four roles in an electronic examination, i.e., candidate, administrator, invigilator and examiner. We list their functions as follows. 
->> Candidate: A candidate is a student taking the examination.
->> Administrator: An administrator is responsible for registering candidates for the examination.
->> Invigilator: An invigilator is tasked with distributing questions, supervising the examination and collects answers. 
->> Examiner: A examiner marks the examination and notifies students their scores. 
+* Candidate: A candidate is a student taking the examination.
+* Administrator: An administrator is responsible for registering candidates for the examination.
+* Invigilator: An invigilator is tasked with distributing questions, supervising the examination and collects answers. 
+* Examiner: A examiner marks the examination and notifies students their scores. 
 Each participant is assigned specific tasks, and through collaborative efforts, they contribute to the successful execution of electronic examinations.
 
-#2 Model Specification
+## 2 Model Specifications
 In our model, there are four templates corresponding to the candidate, administrator, invigilator, and examiner, as follows.
->> Candidate Template
->> Administrator Template
->> Invigilator Template
->> Examiner Template
+* Candidate Template
+<figure>
+  <div align=center>
+    <img src="https://github.com/TURTING-BO/CPNs-Attack-Tolerance/blob/master/Module%20Figures/M1_Main.png"> 
+  </div>
+  <div align=center>
+     <figcaption>Figure 1. Main Process</figcaption>
+  </div>    
+</figure>
 
-#3 Property Specifications
+* Administrator Template
+* Invigilator Template
+* Examiner Template
+
+## 3 Property Specifications
 (1)	No Deadlock
 In the electronic examination model, the absence of deadlocks is crucial to prevent any "never-ending" scenarios.
 A[] not deadlock
@@ -54,5 +70,5 @@ A[] NoCorrAnsMark(T)
 (12)	Mark Integrity
 The mark integrity property ensures that each candidate receives notification after marking, and all answers from candidates are duly marked. 
 
-#4 Verification Results
+## 4 Verification Results
 Our model satisfied all the 12 specified properties, underscoring the reliability of the electronic examination model. The verification time and resident memory statistics indicate that the associated time and space overhead are within acceptable limits.
