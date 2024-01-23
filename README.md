@@ -1,13 +1,13 @@
 # Formal Modeling and Verification of Electronic Examination Based on UPPAAL
 
-Electronic examinations offer a convenient way for assessing the knowledge and abilities of learners with the help of computer and network technologies. The participants in electronic examinations are akin to those in traditional exams, with the difference that certain operations are conducted through network communications.
+Electronic examinations offer a convenient way for assessing the knowledge and abilities of learners with the help of computer and network technologies. In this study, we employ UPPAAL to formally model and analyze the electronic examination process, including conduction of four templates and verification of twelve properties. 
 
 ## Table of Contents
 
-- [Roles of Participants](## Roles of Participants)
-- [Model Specifications](## Model Specifications)
-- [Property Specifications](## Property Specifications)
-- [Verification Results](## Verification Results)
+- [Roles of Participants](#Roles-of-Participants)
+- [Model Specifications](#Model-Specifications)
+- [Property Specifications](#Property-Specifications)
+- [Verification Results](#Verification-Results)
 
 
 
