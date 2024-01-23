@@ -10,14 +10,18 @@ Electronic examinations offer a convenient way for assessing the knowledge and a
 - [Verification Results](#Verification-Results)
 
 
+## Background
 
-## Roles of Participants
+### Roles of Participants
 In a general way, there are four roles in an electronic examination, i.e., candidate, administrator, invigilator and examiner. We list their functions as follows. 
 * Candidate: A candidate is a student taking the examination.
 * Administrator: An administrator is responsible for registering candidates for the examination.
 * Invigilator: An invigilator is tasked with distributing questions, supervising the examination and collects answers. 
 * Examiner: A examiner marks the examination and notifies students their scores. 
 Each participant is assigned specific tasks, and through collaborative efforts, they contribute to the successful execution of electronic examinations.
+
+### Simulation and Verification
+When simulating this model (i.e., [An-Electronic-Examination-Model-Based-on-UPPAAL.xml](https://github.com/TURTING-BO/An-Electronic-Examination-Model-Based-on-UPPAAL/blob/main/An-Electronic-Examination-Model-Based-on-UPPAAL.xml), ensure that you have installed UPPAAL Tools. You can download CPNs Tools from the website "https://uppaal.org/". The site provides numerous helpful tutorials on effectively utilizing this powerful tool.
 
 ## Model Specifications
 In our model, there are four templates corresponding to the candidate, administrator, invigilator, and examiner, as follows.
