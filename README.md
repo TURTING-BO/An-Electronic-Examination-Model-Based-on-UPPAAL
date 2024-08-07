@@ -51,7 +51,7 @@ In our model, there are four templates corresponding to the candidate, administr
 
 <figure>
   <div align=center>
-    <img src="https://github.com/TURTING-BO/An-Electronic-Examination-Model-Based-on-UPPAAL/blob/main/Template%20Figures/Candidate%20template.pdf" width="70%" height="70%">  
+    <img src="https://github.com/TURTING-BO/An-Electronic-Examination-Model-Based-on-UPPAAL/blob/main/Template%20Figures/Candidate%20template.png" width="70%" height="70%">  
   </div>
   <div align=center>
      <figcaption>Figure 1. Candidate Templates</figcaption>
@@ -61,7 +61,7 @@ In our model, there are four templates corresponding to the candidate, administr
 ### Administrator Template
 <figure>
   <div align=center>
-    <img src="https://github.com/TURTING-BO/An-Electronic-Examination-Model-Based-on-UPPAAL/blob/main/Template%20Figures/Administrator%20Template.jpg" width="70%" height="70%"> 
+    <img src="https://github.com/TURTING-BO/An-Electronic-Examination-Model-Based-on-UPPAAL/blob/main/Template%20Figures/Administrator%20Template.png" width="70%" height="70%"> 
   </div>
   <div align=center>
      <figcaption>Figure 2. Administrator Templates</figcaption>
@@ -71,7 +71,7 @@ In our model, there are four templates corresponding to the candidate, administr
 ### Invigilator Template
 <figure>
   <div align=center>
-    <img src="https://github.com/TURTING-BO/An-Electronic-Examination-Model-Based-on-UPPAAL/blob/main/Template%20Figures/Invigilator%20Template.jpg" width="70%" height="70%"> 
+    <img src="https://github.com/TURTING-BO/An-Electronic-Examination-Model-Based-on-UPPAAL/blob/main/Template%20Figures/Invigilator%20Template.png" width="70%" height="70%"> 
   </div>
   <div align=center>
      <figcaption>Figure 3. Invigilator Templates</figcaption>
@@ -81,7 +81,7 @@ In our model, there are four templates corresponding to the candidate, administr
 ### Examiner Template
 <figure>
   <div align=center>
-    <img src="https://github.com/TURTING-BO/An-Electronic-Examination-Model-Based-on-UPPAAL/blob/main/Template%20Figures/Examiner%20Template.jpg" width="70%" height="70%"> 
+    <img src="https://github.com/TURTING-BO/An-Electronic-Examination-Model-Based-on-UPPAAL/blob/main/Template%20Figures/Examiner%20Template.png" width="70%" height="70%"> 
   </div>
   <div align=center>
      <figcaption>Figure 4. Examiner Templates</figcaption>
