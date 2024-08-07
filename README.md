@@ -71,7 +71,7 @@ In our model, there are four templates corresponding to the candidate, administr
 ### Invigilator Template
 <figure>
   <div align=center>
-    <img src="https://github.com/TURTING-BO/An-Electronic-Examination-Model-Based-on-UPPAAL/blob/main/Template%20Figures/Invigilator%20Template.png" width="70%" height="70%"> 
+    <img src="https://github.com/TURTING-BO/An-Electronic-Examination-Model-Based-on-UPPAAL/blob/main/Template%20Figures/Invigilator%20Template.png" width="90%" height="70%"> 
   </div>
   <div align=center>
      <figcaption>Figure 3. Invigilator Templates</figcaption>
