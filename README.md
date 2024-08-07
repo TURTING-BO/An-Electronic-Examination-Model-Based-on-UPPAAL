@@ -167,7 +167,7 @@ Our model satisfied all the 12 specified properties, underscoring the reliabilit
 
 <figure>
   <div align=center>
-    <img src="https://github.com/TURTING-BO/An-Electronic-Examination-Model-Based-on-UPPAAL/blob/main/Verification%20Results.jpg" width="70%" height="70%"> 
+    <img src="https://github.com/TURTING-BO/An-Electronic-Examination-Model-Based-on-UPPAAL/blob/main/Verification%20Results.pdf" width="70%" height="70%"> 
   </div>
   <div align=center>
      <figcaption>Figure 5. Verification Resultss</figcaption>
