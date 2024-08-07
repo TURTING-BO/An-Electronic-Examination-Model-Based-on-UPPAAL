@@ -51,7 +51,7 @@ In our model, there are four templates corresponding to the candidate, administr
 
 <figure>
   <div align=center>
-    <img src="https://github.com/TURTING-BO/An-Electronic-Examination-Model-Based-on-UPPAAL/blob/main/Template%20Figures/Candidate%20template.png" width="70%" height="70%">  
+    <img src="https://github.com/TURTING-BO/An-Electronic-Examination-Model-Based-on-UPPAAL/blob/main/Template%20Figures/Candidate%20Template.png" width="70%" height="70%">  
   </div>
   <div align=center>
      <figcaption>Figure 1. Candidate Templates</figcaption>
@@ -100,19 +100,19 @@ In the electronic examination model, the absence of deadlocks is crucial to prev
 
 The candidate registration property stipulates that a candidate can submit an answer only if they have registered.
 
-<p align="center"> A[] forall(i:ID) !(! FindElement(R, i) & FindElement(S, i)) </p>
+<p align="center"> A[] forall(i:ID) not (not FindElement(R, i) and FindElement(S, i)) </p>
 
 ### Candidate Eligibility
 
 The candidate eligibility property signifies that a candidate's answer can be accepted only if they have registered.
 
-<p align="center"> A[] forall(i:ID) !(!FindElement(R, i) & FindElement(A, i)) </p>
+<p align="center"> A[] forall(i:ID) not (not FindElement(R, i) and FindElement(A, i)) </p>
 
 ### Answer Authentication
 
 The answer authentication property stipulates that a candidate's answer can be accepted only if they have submitted the answer.
 
-<p align="center"> A[] forall(i:ID) !(!FindElement(S, i) & FindElement(A, i)) </p>
+<p align="center"> A[] forall(i:ID) not (not FindElement(S, i) and FindElement(A, i)) </p>
 
 ### Answer Singularity
 
