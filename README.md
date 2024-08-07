@@ -51,7 +51,7 @@ In our model, there are four templates corresponding to the candidate, administr
 
 <figure>
   <div align=center>
-    <img src="https://github.com/TURTING-BO/An-Electronic-Examination-Model-Based-on-UPPAAL/blob/main/Template%20Figures/Candidate%20Template.png" width="60%" height="70%">  
+    <img src="https://github.com/TURTING-BO/An-Electronic-Examination-Model-Based-on-UPPAAL/blob/main/Template%20Figures/Candidate%20Template.eps" width="60%" height="70%">  
   </div>
   <div align=center>
      <figcaption>Figure 1. Candidate Templates</figcaption>
