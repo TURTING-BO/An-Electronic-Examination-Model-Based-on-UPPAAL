@@ -2,10 +2,10 @@
 <!-- 
 This UPPAAL model is part of the research paper:
 "Ensuring reliability in electronic examinations through UPPAAL-based trustworthy design" by Wenbo Zhou, Yujiao Zhao, Ye Zhang, Liwen Mu, Yiyuan Wang and Minghao Yin
-Currently under submission to PeerJ Computer Science
+Currently accepted by PeerJ Computer Science.
 For more information, visit https://github.com/TURTING-BO/An-Electronic-Examination-Model-Based-on-UPPAAL
 
-Licensed under the MIT License (Non-Commercial Academic Use Only)
+Licensed under the MIT License
 Copyright (c) 2024 Wenbo Zhou
 See LICENSE file in the project root for full license information.
 -->
