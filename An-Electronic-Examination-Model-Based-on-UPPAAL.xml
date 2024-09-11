@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- 
+This UPPAAL model is part of the research paper:
+"Ensuring reliability in electronic examinations through UPPAAL-based trustworthy design" by Wenbo Zhou, Yujiao Zhao, Ye Zhang, Liwen Mu, Yiyuan Wang and Minghao Yin
+Currently under submission to PeerJ Computer Science
+For more information, visit https://github.com/TURTING-BO/An-Electronic-Examination-Model-Based-on-UPPAAL
+
+Licensed under the MIT License (Non-Commercial Academic Use Only)
+Copyright (c) 2024 Wenbo Zhou
+See LICENSE file in the project root for full license information.
+-->
 <!DOCTYPE nta PUBLIC '-//Uppaal Team//DTD Flat System 1.6//EN' 'http://www.it.uu.se/research/group/darts/uppaal/flat-1_6.dtd'>
 <nta>
 	<declaration>// Place global declarations here.
